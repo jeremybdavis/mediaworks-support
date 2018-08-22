@@ -1,0 +1,63 @@
+p,
+li {
+    color: #525658;
+}
+
+li {
+    font-weight: 600;
+}
+
+.hero {
+    padding: 40px 0;
+}
+
+.hero h1 {
+    color: #e05929;
+    font-size: 38px;
+}
+
+.hero p {
+    font-size: 22px;
+}
+
+.item {
+    text-align: center;
+}
+
+.headline {
+    color: #001641;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.row {
+    padding: 40px 0;
+}
+
+@media (min-width: 768px) {
+    .hero h1 {
+        font-size: 56px;
+    }
+
+    .hero p {
+        font-size: 26px;
+    }
+
+    .hero {
+        padding: 60px 0;
+    }
+
+    .row {
+        padding: 60px 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero h1 {
+        font-size: 68px;
+    }
+
+    .hero p {
+        font-size: 32px;
+    }
+}
