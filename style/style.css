@@ -3,6 +3,17 @@ li {
     color: #525658;
 }
 
+.no-bs a {
+    color: #001641;
+    transition: all .3s ease-in-out;
+}
+
+.no-bs a:hover {
+    color: #001641;
+    opacity: .6;
+    text-decoration: none;
+}
+
 p {
     font-size: 18px;
 }
@@ -50,7 +61,11 @@ li {
 }
 
 .row-3 {
-    background-color: #fde4d5;
+    background-color: #fef7f3;
+}
+
+.row-3 p {
+    font-size: 14px;
 }
 
 .about p {
@@ -75,7 +90,7 @@ li {
     }
 
     .hero p {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .hero {
@@ -93,7 +108,7 @@ li {
     }
 
     .hero p {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .hero .content {
@@ -102,8 +117,8 @@ li {
         transform: translateY(-50%);
     }
 
-    .headline {
-        font-size: 28px;
+    .row-3 .headline {
+        font-size: 26px;
     }
 
     .about p {
