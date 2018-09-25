@@ -84,6 +84,24 @@ li {
     top: 3px;
 }
 
+.page {
+    margin-bottom: 40px;
+}
+
+.page .headline {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.page a {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.page p {
+    font-size: 22px;
+}
+
 @media (min-width: 768px) {
     .hero h1 {
         font-size: 56px;
